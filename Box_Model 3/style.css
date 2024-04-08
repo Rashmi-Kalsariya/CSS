@@ -1,0 +1,52 @@
+.box{
+    
+    overflow: hidden;
+    cursor: pointer;
+    height:270px;
+    width: 250px;
+    border: 3px;
+    border-radius: 10px;
+    padding: 11px;
+    padding-left: 41px;
+    background-color:aliceblue;
+    box-shadow: 5px 5px 10px 8px #BDBDBD;
+    margin: 30px;
+    display: inline-block;
+}
+
+#img{
+    margin-top: 20px;
+   display: block;
+}
+
+#img4{
+    margin-top: 50px;
+    /* margin-right: 20px; */
+   /* display: block; */
+}
+
+#heart{
+    display: inline;
+}
+
+#fp{
+    display: inline;
+    margin-left: 79px;
+    color: red;
+   margin-top: 50px;
+}
+
+#sp{
+    display: inline;
+    color: black;
+    margin-left: 45px;
+    /* margin-bottom: 50px; */
+}
+
+#shop{
+    display: inline;
+    margin-left: 50px;
+}
+
+
+

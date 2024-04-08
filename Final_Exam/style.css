@@ -1,0 +1,244 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(26, 25, 25);
+    height: max-content;
+    width: fit-content;
+}
+
+
+
+/******************** NAVBAR *******************/
+
+.parent-box {
+    display: flex;
+    height: 65px;
+    width: 100;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px;
+    color: white;
+}
+#mainlogo {
+    display: flex;
+}
+#menu {
+    display: flex;
+    gap: 80px;
+}
+#menu>a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-weight: 900;
+    z-index: 2;
+    color: white;
+    text-transform: uppercase;
+}
+#book>a {
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+}
+#cart {
+    display: flex;
+    gap: 30px;
+}
+
+
+
+/***************************** BANNER ************************/
+
+#mainimg > img {
+    height: 800px;
+    width: 100%;
+    background: rgba(0,0,0,0.2);
+}
+
+#banner{
+    position: absolute;
+    top: 250px;
+    left: 350px;
+    padding: 20px;
+}
+
+#t1{
+    text-align: center;
+    color: gold;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+#t2{
+    text-align: center;
+    color: white;
+    font-size: 90px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+
+#banner > div{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: Georgia, serif;
+    font-weight: 800;
+}
+
+.book{
+    height: 50px;
+    width: 300px;
+    /* background-color: azure; */
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 235px;
+}
+
+.book:hover{
+    background-color: white;
+    color: black;
+}
+
+#table{
+    text-align: center;
+    color: gold;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.dots{
+    height: 11px;
+    width: 11px;
+    background-color: white;
+    border-radius: 30px;
+    display:inline-flex;
+    flex-direction: row;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 45%;
+}
+
+.dots:hover{
+    transform: scale(0.7);
+}
+
+
+
+/**************************** DROPDOWN MENU ***************************/
+
+.dropbtn {
+    font-size: 15px;
+    font-weight: 900;
+    text-transform: uppercase;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    left: -21px;
+    min-width: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+/***************************** WELCOME *****************************/
+
+#disc{
+    height: 550px;
+    width: 100;
+    background-color: rgb(26, 25, 25);
+    padding: 70px;
+}
+
+#wlc{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    color: gold;
+    font-family: 'Ruthie', cursive;
+    text-transform: capitalize;
+}
+
+#wlc2{
+    display: flex;
+    justify-content: center;
+    font-size: 70px;
+    font-weight: bolder;
+    color: white;
+}
+
+#miniicon{
+    display: flex;
+    justify-content: center;
+}
+
+#dummy{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#dummy2{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#dummy3{
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#sign{
+    display: flex;
+    justify-content: center;
+}
+
+
+/********************************** SHOP ********************************/
+
+#backimg{
+    margin: 2%;
+}
+
+#main-box{
+    background-color: rgb(247, 247, 247);
+    height: 250px;
+    width: 250px;
+}

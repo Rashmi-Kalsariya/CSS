@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://4kwallpapers.com/images/wallpapers/dog-digital-art-3840x1080-12319.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container {
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(55px);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+  }
+  
+  .form {
+    padding: 20px;
+  }
+
+  #username{
+    max-width: 310px;
+    border-bottom: 2px solid #000000;
+    background-color: transparent;
+    color: white;
+  }
+
+  #email{
+    max-width: 310px;
+    border-bottom: 2px solid #000000;
+    background-color: transparent;
+    color: white;
+  }
+
+  #password{
+    max-width: 310px;
+    border-bottom: 2px solid #000000;
+    background-color: transparent;
+    color: white;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    color: #ffffff;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #838586;
+  }
+  

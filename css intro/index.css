@@ -1,0 +1,55 @@
+h1{
+    color: black;
+    background-color: blanchedalmond;
+    margin: 10px;
+    padding: 10px;
+    background-color: aliceblue;
+    border-width: 10px;
+    border-color: black;
+    border-style:groove;
+}
+
+h2{
+    margin: 20px;
+    padding: 20px;
+    background-color: aliceblue;
+    border-width: 15px;
+    border-color: black;
+    border-style: double;
+}
+
+.edu{
+    margin: 20px;
+    padding: 20px;
+    background-color: aliceblue;
+    border-width: 15px;
+    border-color: black;
+    border-style: double;
+}
+
+#hobbi{
+    margin: 20px;
+    padding: 20px;
+    background-color: aliceblue;
+    border-width: 10px;
+    border-color: black;
+    border-style:dotted;
+}
+
+#strange{
+    margin: 20px;
+    padding: 20px;
+    background-color: aliceblue;
+    border-width: 15px;
+    border-color: black;
+    border-style:outset;
+}
+
+#weak{
+    margin: 20px;
+    padding: 20px;
+    background-color: aliceblue;
+    border-width: 5px;
+    border-color: black;
+    border-style:dotted;
+}

@@ -1,0 +1,110 @@
+body{
+    max-width: 100%;
+    max-height: 100%;
+}
+.parent-box{
+    max-height:80px;
+    max-width:100%;
+    /* border:5px solid black; */
+    /* border-style:groove; */
+    background-color: #000000;
+}
+
+#img{
+    background-color: rgb(0, 0, 0);
+    margin-left: 70px;
+    margin-top: 20px;
+}
+
+#home{
+    color:white;
+    margin-left: 300px;
+    text-decoration: none;
+}
+
+#menu{
+    color:white;
+    margin-left:80px;
+    text-decoration: none;
+}
+
+#blog{
+    color:white;
+    margin-left: 80px;
+    text-decoration: none;
+}
+
+#shop{
+    color:white;
+    margin-left:80px;
+    text-decoration: none;
+}
+
+#contact{
+    color:white;
+    margin-left: 80px;
+    text-decoration: none;
+}
+
+#about{
+    color:white;
+    margin-left:80px;
+    text-decoration: none;
+}
+
+.box1{
+    height:500px;
+    width:360px;
+    background-color: azure;
+    border-radius: 7px;
+    box-shadow: 2px 2px 10px 4px dimgrey;
+    display: inline-block;
+    margin:35px;
+}
+    .box1:hover{
+        transform: scale(1.1);
+        transition-duration: 1s;
+    }
+
+#t1{
+    margin-left:75px;
+    text-transform: uppercase;
+}
+
+#t2{
+    margin-left: 77px;
+    text-transform: capitalize;
+}
+
+#t3{
+    margin-left: 60px;
+    text-transform: capitalize;
+}
+
+#price{
+    color:chocolate;
+    margin-left: 120px;
+}
+
+.box2{
+    margin-left: 80px;
+    height:50px;
+    width:200px;
+    cursor: pointer;
+    background-color:chocolate;
+    border: none;
+    color: black;
+    transition: 0.3s;
+}
+  .box2:hover {
+    background-color:bisque;
+    color: white;
+  }
+
+#order{
+    color: rgb(49, 49, 49);
+    padding: 10px;
+    font-size:x-large;
+    margin-left: 36px;
+}
+

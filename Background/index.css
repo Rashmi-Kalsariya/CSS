@@ -1,0 +1,19 @@
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+
+#head{
+    text-align: center;
+    background-color: antiquewhite;
+    margin: 10px;
+    border-radius: 5px;
+    border-style:groove;
+}
+
+body{
+    border-style:double;
+    border-color: black;
+    border-width:7px;
+}
